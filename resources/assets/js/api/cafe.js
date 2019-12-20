@@ -1,7 +1,7 @@
 /**
  * Imports the OVEN API URL from the config.
  */
-import { OVEN_CONFIG } from "./config";
+import { OVEN_CONFIG } from "../config";
 
 export default {
   /**

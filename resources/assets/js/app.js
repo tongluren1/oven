@@ -28,7 +28,9 @@ if (token) {
 // window.Vue = require('vue');
 import Vue from 'vue';
 
-import router from './routes'
+import router from './routes.js'
+
+import store from './store.js'
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -36,12 +38,7 @@ import router from './routes'
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
-// const app = new Vue({
-//     el: '#app'
-// });
-
 new Vue({
-    router
+    router,
+    store
 }).$mount('#app');
